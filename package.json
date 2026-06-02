@@ -1,0 +1,23 @@
+{
+  "name": "nil-club",
+  "private": true,
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "turbo run dev",
+    "build": "turbo run build",
+    "lint": "turbo run lint",
+    "db:push": "turbo run db:push --filter=@nil-club/database",
+    "db:generate": "turbo run db:generate --filter=@nil-club/database",
+    "db:migrate": "turbo run db:migrate --filter=@nil-club/database",
+    "db:seed": "turbo run db:seed --filter=@nil-club/database"
+  },
+  "devDependencies": {
+    "turbo": "^2.5.4",
+    "typescript": "^5.8.3"
+  },
+  "packageManager": "pnpm@9.15.0",
+  "engines": {
+    "node": ">=20.0.0",
+    "pnpm": ">=9.0.0"
+  }
+}
