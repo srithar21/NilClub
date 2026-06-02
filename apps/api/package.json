@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@nil-club/database": "workspace:*",
+    "drizzle-orm": "^0.44.1",
     "hono": "^4.7.11",
     "next": "^15.0.0",
     "react": "^19.0.0",

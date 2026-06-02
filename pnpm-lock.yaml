@@ -20,6 +20,9 @@ importers:
       '@nil-club/database':
         specifier: workspace:*
         version: link:../../packages/database
+      drizzle-orm:
+        specifier: ^0.44.1
+        version: 0.44.7(@neondatabase/serverless@0.10.4)(@types/pg@8.11.6)
       hono:
         specifier: ^4.7.11
         version: 4.12.23
