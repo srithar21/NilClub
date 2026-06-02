@@ -14,20 +14,17 @@
       "dependsOn": ["^lint"]
     },
     "db:push": {
-      "cache": false,
-      "dotEnv": [".env"]
+      "cache": false
     },
     "db:generate": {
       "cache": false,
       "outputs": ["drizzle/**"]
     },
     "db:migrate": {
-      "cache": false,
-      "dotEnv": [".env"]
+      "cache": false
     },
     "db:seed": {
-      "cache": false,
-      "dotEnv": [".env"]
+      "cache": false
     }
   }
 }
